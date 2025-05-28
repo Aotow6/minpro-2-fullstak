@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Display CSS - Website Keren</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="tentang-kami.html">Tentang Kami</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="display-css.html" class="active">Contoh Display</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>3. Contoh Properti CSS Display</h1>
+        </header>
+
+        <section>
+            <h2>Penjelasan</h2>
+            <p>Halaman ini mendemonstrasikan bagaimana properti <code>display</code> dalam CSS mengubah cara elemen ditampilkan di halaman.</p>
+        </section>
+
+        <section class="display-demo">
+            <h3>Display: Block</h3>
+            <p>Elemen <code>block</code> selalu dimulai dari baris baru dan mengambil lebar penuh yang tersedia.</p>
+            <div class="display-block">Elemen ini menggunakan display: block;</div>
+            <div class="display-block">Elemen ini juga menggunakan display: block;</div>
+        </section>
+
+        <section class="display-demo">
+            <h3>Display: Inline</h3>
+            <p>Elemen <code>inline</code> tidak dimulai dari baris baru dan hanya mengambil lebar sebanyak yang diperlukan. Lebar dan tinggi tidak bisa diatur.</p>
+            <span class="display-inline">Elemen ini</span>
+            <span class="display-inline">menggunakan</span>
+            <span class="display-inline">display: inline;</span>
+        </section>
+
+        <section class="display-demo">
+            <h3>Display: Inline-Block</h3>
+            <p>Elemen <code>inline-block</code> mirip <code>inline</code> (tidak memulai baris baru), tetapi bisa diatur lebar dan tingginya seperti <code>block</code>.</p>
+            <div class="display-inline-block">Elemen ini</div>
+            <div class="display-inline-block">menggunakan</div>
+            <div class="display-inline-block">display: inline-block;</div>
+        </section>
+
+        <section class="display-demo">
+            <h3>Display: None</h3>
+            <p>Elemen dengan <code>display: none;</code> akan benar-benar dihilangkan dari tampilan dan tidak memakan ruang.</p>
+            <p>Elemen berikut ini menggunakan display: none; sehingga tidak akan terlihat:</p>
+            <div class="display-none">Elemen Tersembunyi</div>
+            <p>Ini adalah elemen setelah elemen yang disembunyikan.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Website Keren</p>
+    </footer>
+</body>
+</html>
